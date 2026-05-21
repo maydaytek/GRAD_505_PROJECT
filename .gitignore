@@ -1,0 +1,16 @@
+# ── Data files ────────────────────────────────────────────────────────────────
+# CSV files are too large for GitHub (pitches.csv > 1 GB).
+# Download from: https://www.kaggle.com/datasets/pschale/mlb-pitch-data-20152018
+DATASET/*.csv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
